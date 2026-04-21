@@ -6,7 +6,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://huggingface.co/RoxanaMaria/SubSearch-qwen2.5-3b-grpo">
-    <img src="https://img.shields.io/badge/Resources-GitHub-black?style=for-the-badge&logo=github" alt="Resources">
+    <img src="https://img.shields.io/badge/Resources-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=white" alt="Resources">
   </a>
 </p>
 
