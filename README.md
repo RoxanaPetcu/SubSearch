@@ -1,6 +1,16 @@
 # SubSearch: Intermediate Rewards for Unsupervised Guided Reasoning in Complex Retrieval
 
-SubSearch is a reinforcement learning (RL) framework designed for training hierarchical reasoning-and-searching LLMs. While standard models often struggle with complex, multi-hop information needs, SubSearch enables language models to autonomously decompose a query into a verifiable tree of sub-queries.
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.07415">
+    <img src="https://img.shields.io/badge/Paper-ArXiv-red?style=for-the-badge&logo=arxiv" alt="Paper">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://huggingface.co/RoxanaMaria/SubSearch-qwen2.5-3b-grpo">
+    <img src="https://img.shields.io/badge/Resources-GitHub-black?style=for-the-badge&logo=github" alt="Resources">
+  </a>
+</p>
+
+**SubSearch** is a reinforcement learning (RL) framework designed for training **hierarchical reason-and-search LLMs**. While standard models often struggle with complex, multi-hop information needs, SubSearch enables language models to autonomously decompose a query into a verifiable tree of sub-queries.
 
 Built upon veRL and extending the foundational ideas of Search-R1 and DeepSeek-R1, SubSearch introduces a dual-level reward system. It moves beyond simple outcome-based rewards by integrating intrinsic process sensors: Splittability (rewarding logical decomposition at the query level) and Answerability (rewarding document sufficiency at the sub-query level). This creates a robust, open-source RL training pipeline for building agents capable of deep, multi-step research.
 
