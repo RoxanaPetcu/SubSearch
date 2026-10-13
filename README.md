@@ -1,6 +1,6 @@
 # SubSearch: Intermediate Rewards for Unsupervised Guided Reasoning in Complex Retrieval
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://arxiv.org/abs/2604.07415">
     <img src="https://img.shields.io/badge/Paper-ArXiv-red?style=for-the-badge&logo=arxiv" alt="Paper">
   </a>
@@ -8,7 +8,7 @@
   <a href="https://huggingface.co/RoxanaMaria/SubSearch-qwen2.5-3b-grpo">
     <img src="https://img.shields.io/badge/Resources-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=white" alt="Resources">
   </a>
-</p>
+</p> -->
 
 **SubSearch** is a reinforcement learning (RL) framework designed for training **hierarchical reason-and-search LLMs**. While standard models often struggle with complex, multi-hop information needs, SubSearch enables language models to autonomously decompose a query into a verifiable tree of sub-queries.
 
