@@ -71,7 +71,7 @@ conda activate retriever
 bash run_retriever.sh
 ```
 
-(4) Run RL training (PPO) with Llama-3.2-3b-base.
+(4) Run RL training (GRPO) with Llama-3.2-3b-base.
 ```bash
 export RETRIEVER_IP_PATH=/path/to/save/IP/file
 export DATA_PATH=/path/to/data
